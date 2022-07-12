@@ -86,7 +86,7 @@ steps in advance to help us fix any potential bug as fast as possible.
   same issue you are having, check if there is not already a bug report existing
   for your bug or error in our bug trackers.
 - Also make sure to search the internet (including Stack Overflow) to see if
-  users outside of the GitHub community have discussed the issue.
+  users outside of the CodeBerg community have discussed the issue.
 - Collect information about the bug:
 - Stack trace (Traceback)
 - OS, Platform and Version (Windows, Linux, macOS, x86, ARM)
@@ -103,7 +103,7 @@ steps in advance to help us fix any potential bug as fast as possible.
 > Instead sensitive bugs must be sent by email to
 > [report@amethyst.live](mailto:report@amethyst.live).
 
-We use GitHub issues to track bugs and errors. If you run into an issue with the
+We use CodeBerg issues to track bugs and errors. If you run into an issue with the
 project:
 
 - Open a new issue using the respective template.
