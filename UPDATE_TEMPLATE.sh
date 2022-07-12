@@ -14,7 +14,7 @@ cp -r "./${TEMP_DIR}/SUPPORT.md" "./SUPPORT.md"
 cp -r "./${TEMP_DIR}/UPDATE_TEMPLATE.sh" "./UPDATE_TEMPLATE.sh"
 
 # Remove the UPDATE_STATE_LOCK_X1 dir.
-rm -r "./${TEMP_DIR}/"
+rm -rf "./${TEMP_DIR}/"
 
 # Commit the changes.
 git reset
