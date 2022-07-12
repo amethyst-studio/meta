@@ -1,6 +1,6 @@
 # ${REPO_NAME} - ${REPO_OWNER}
 
-[CLASSIFICATION A/CLASSIFICATION B] ${REPO_DESCRIPTION}
+${REPO_DESCRIPTION}
 
 ## Installation, Configuration, and Deployment
 

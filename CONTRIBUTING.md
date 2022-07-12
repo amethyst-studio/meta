@@ -54,6 +54,20 @@ a join and feel free to let us know what you need a hand with.
 > following due process. If content is submitted that is infringing on your
 > rights, please create an issue in the project for review.
 
+### Classifications of Projects
+
+Below are the definitions for what each [A/B] format used in the project description will refer to.
+
+| Code           | Type | Usage                                                                                       |
+|----------------|------|---------------------------------------------------------------------------------------------|
+| Internal       | A    | Auditing and Transparency. Limited contribution.                                            |
+| Library        | A    | FOSS Libraries. Full contribution.                                                          |
+| Tool           | A    | FOSS Tooling. Full contribution.                                                            |
+| Meta           | B    | Designed for storage of assets and guidelines.                                              |
+| Infrastructure | B    | Designed to assist with managing infrastructure. Likely contains aspects of Docker Compose. |
+| Deno           | B    | Utilizes the Deno TypeScript Runtime as the main language.                                  |
+| Script         | B    | Provides scripts used to assist with repeated or maintenance related actions.               |
+
 ### Reporting Bugs
 
 #### Before Submitting a Bug Report
