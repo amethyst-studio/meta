@@ -13,4 +13,4 @@ cp -r "./${TEMP_DIR}/SECURITY.md" "./SECURITY.md"
 cp -r "./${TEMP_DIR}/SUPPORT.md" "./SUPPORT.md"
 cp -r "./${TEMP_DIR}/UPDATE_TEMPLATE.sh" "./UPDATE_TEMPLATE.sh"
 
-rm -r "./${TEMP_DIR}/"
+rm -rf "./${TEMP_DIR}/"
