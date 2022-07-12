@@ -1,6 +1,6 @@
-# Support for Amethyst Studio
+# Support for Amethyst
 
-Welcome to Amethyst Studio's suite of projects! We use GitHub issues for
+Welcome to Amethyst's suite of projects! We use GitHub issues for
 tracking bugs and handling feature requests, so those are not the right place to
 get support for our projects. Please make use of the resources below to get
 support for our products.
