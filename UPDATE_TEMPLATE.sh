@@ -17,7 +17,9 @@ cp -r "./${TEMP_DIR}/.gitattributes" "./.gitattributes"
 
 if ! [[ "$PWD" =~ "meta" ]]; then
   sed -i "s/random/$RANDOM-$RANDOM-$RANDOM-$RANDOM/g" .github/settings.yml
-  sed -i "s/random/$RANDOM-$RANDOM-$RANDOM-$RANDOM/g" .github/stale.yml
+  sed -i "s/vr-stage: .*//g" .github/settings.yml
+else
+  sed -i "s/vr-stage: .*/vr-stage: $RANDOM-$RANDOM-$RANDOM-$RANDOM/g" .github/settings.yml
 fi
 
 # Remove the UPDATE_STATE_LOCK_X1 dir.
