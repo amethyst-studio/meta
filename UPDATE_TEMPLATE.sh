@@ -3,7 +3,7 @@ TEMP_DIR="UPDATE_STATE_LOCK_X1"
 
 echo "Updating using '${TEMP_DIR}' as relative storage."
 echo "Cloning the 'meta' template to the relative storage."
-git clone git@codeberg.org:Amethyst/meta.git "${TEMP_DIR}"
+git clone https://github.com/amethyst-studio/meta "${TEMP_DIR}"
 
 echo "Pulling the files which can be updated."
 cp -r "./${TEMP_DIR}/ISSUE_TEMPLATE" "./"
