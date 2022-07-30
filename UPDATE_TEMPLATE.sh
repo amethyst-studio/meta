@@ -11,9 +11,9 @@ cp -r "./${TEMP_DIR}/CODE_OF_CONDUCT.md" "./CODE_OF_CONDUCT.md"
 cp -r "./${TEMP_DIR}/CONTRIBUTING.md" "./CONTRIBUTING.md"
 cp -r "./${TEMP_DIR}/SECURITY.md" "./SECURITY.md"
 cp -r "./${TEMP_DIR}/SUPPORT.md" "./SUPPORT.md"
+cp -r "./${TEMP_DIR}/UPDATE_TEMPLATE.sh" "./UPDATE_TEMPLATE.sh"
 cp -r "./${TEMP_DIR}/.editorconfig" "./.editorconfig"
 cp -r "./${TEMP_DIR}/.gitattributes" "./.gitattributes"
-cp -r "./${TEMP_DIR}/UPDATE_TEMPLATE.sh" "./UPDATE_TEMPLATE.sh"
 
 if ! [[ "$PWD" =~ "meta" ]]; then
   sed -i "s/random/$RANDOM-$RANDOM-$RANDOM-$RANDOM/g" .github/settings.yml
@@ -25,7 +25,6 @@ rm -rf "./${TEMP_DIR}/"
 
 # Commit the changes.
 git reset
-git add ISSUE_TEMPLATE
 git add CODE_OF_CONDUCT.md
 git add CONTRIBUTING.md
 git add SECURITY.md
