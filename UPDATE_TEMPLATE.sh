@@ -15,7 +15,7 @@ cp -r "./${TEMP_DIR}/.editorconfig" "./.editorconfig"
 cp -r "./${TEMP_DIR}/.gitattributes" "./.gitattributes"
 cp -r "./${TEMP_DIR}/UPDATE_TEMPLATE.sh" "./UPDATE_TEMPLATE.sh"
 
-if [[ ! [[ "$PWD" =~ "meta" ]] ]]; then
+if ! [[ "$PWD" =~ "meta" ]]; then
   sed -i "s/random/$RANDOM-$RANDOM-$RANDOM-$RANDOM/g" .github/settings.yml
   sed -i "s/random/$RANDOM-$RANDOM-$RANDOM-$RANDOM/g" .github/stale.yml
 fi
