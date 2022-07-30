@@ -30,6 +30,7 @@ git add CONTRIBUTING.md
 git add SECURITY.md
 git add SUPPORT.md
 git add UPDATE_TEMPLATE.sh
+git add .github
 git add .editorconfig
 git add .gitattributes
 git commit -m 'chore(meta): update cross-organization meta documents'
