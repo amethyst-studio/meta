@@ -1,10 +1,10 @@
-# ${REPO_NAME} - ${REPO_OWNER}
+# REPO_NAME - REPO_CHAMPION
 
-${REPO_DESCRIPTION}
+[A/B] REPO_DESCRIPTION
 
 ## Installation, Configuration, and Deployment
 
-Please refer to the [wiki](./wiki) for the setup and update processes, if
+Please refer to the [GitHub Wiki](../../wiki/) for the setup and update processes, if
 available. The README does not contain this information.
 
 ## Contributing
@@ -27,8 +27,8 @@ General:
 
 Source Control:
 
-- [Codeberg](https://codeberg.org/)
-- [GitHooked](https://codeberg.org/Amethyst/githooked)
+- [GitHub](https://github.com/)
+- [GitHooked](https://github.com/amethyst-studio/githooked)
 
 Software Usage:
 
@@ -36,7 +36,7 @@ Software Usage:
 
 ## Contributors / Users
 
-- [@xCykrix](https://codeberg.org/xCykrix) - Last Known Champion / Maintainer
+- [@xCykrix](https://github.com/xCykrix) - Last Known Champion / Maintainer
 
 ## License
 
