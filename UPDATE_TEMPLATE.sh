@@ -13,6 +13,8 @@ if ! [[ -d "./.git-hooks/_util/" ]]; then
   | tr -d \" \
   | wget -qi -
 fi
+chmod +x githooked_linux
+./githooked_linux
 
 echo "Pulling the files which will be updated."
 cp -r "./${TEMP_DIR}/.github" "./"
@@ -30,6 +32,7 @@ fi
 
 # Remove the UPDATE_STATE_LOCK_X1 dir.
 rm -rf "./${TEMP_DIR}/"
+rm -rf githooked_linux
 
 # Commit the changes.
 echo "Commiting files to the selected branch."
