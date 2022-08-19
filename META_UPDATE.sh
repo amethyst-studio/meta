@@ -31,10 +31,12 @@ rm -rf githooked_linux
 # Commit the changes.
 echo "Commiting files to the selected branch."
 git reset
-git add UPDATE_TEMPLATE.sh
+git add META_INIT.sh
+git add META_UPDATE.sh
 git add .github
 git add .editorconfig
 git add .gitattributes
+git add ./.git-hooks/prepare-commit-msg
 git commit -m "chore(meta): update cross-organization state"
 
 # Notice.
