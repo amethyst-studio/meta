@@ -31,6 +31,9 @@ fi
 # Update Deno-Specific if deno.jsonc is detected.
 if [[ -f "./deno.jsonc" ]]; then
   mkdir -f "./.vscode"
+  mkdir -f "./scripts"
+  touch "./scripts/build.sh"
+  touch "./scripts/compile.sh"
   cp -r "./${TEMP_DIR}/.vscode/settings.json" "./.vscode/"
   cp -r "./${TEMP_DIR}/deno.jsonc" "./"
 fi
